@@ -1,0 +1,115 @@
+/* Umum */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f8;
+  color: #5c3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fbd6d6;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 3px solid #f0baba;
+}
+
+header h1 {
+  margin: 0;
+  color: #5c3a3a;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5c3a3a;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu */
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  background-color: #fdeeee;
+  border: 1px solid #f0baba;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+/* Form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #f0baba;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+button {
+  background-color: #f7b5b5;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f19292;
+}
+
+/* Pesan status */
+.status {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.95em;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Footer */
+footer {
+  background-color: #fbd6d6;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 3px solid #f0baba;
+}
